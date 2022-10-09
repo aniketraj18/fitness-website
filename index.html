@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Arena</title>
+</head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comforter&family=Neonderthaw&family=Rubik+Beastly&display=swap">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS Reset */
+    body{color: white;
+        font-family: 'Comforter',Rubik+Beastly;
+        margin: 0px;
+        padding: 0px;
+        background : url('https://s3-us-east-2.amazonaws.com/maryville/wp-content/uploads/2018/08/31162700/ergonomic-work-station.jpg');
+    }
+    .left{
+        display: inline-block;
+        position: absolute;
+        left: 54px;
+        top: 10px;
+        font-size: 15px;
+
+
+    }
+    .mid{
+        display: block;
+        width: 43%;
+        margin: 12px auto;
+        
+        
+
+    }
+    .right{
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 20px;
+
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 20px;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+
+    }
+    .navbar li a:hover,a.active{
+        color:red;
+        text-decoration: underline;
+
+    }
+    .left img{
+        width: 153px;
+    }
+    .left div{
+        text-align: center;
+        font-size: 22px;
+        line-height: 19px;
+
+    }
+    .btn{
+        margin: 0px 8px;
+        background-color: black;
+        color: white;
+        padding: 5px 15px;
+        border: 2px solid grey;
+        border-radius:10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: grey;
+    }
+    .container{
+        border: 3px solid white;
+        border-radius: 17px;
+        margin: 105px 80px;
+        padding: 80px;
+        width: 30%;
+    }
+    .formgroup input{
+        text-align: center;
+        display: block;
+        width: 435px;
+        padding: 1px;
+        margin: 15px auto;
+        font-size: 22px;
+        border-radius: 11px;
+
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width: 25%;
+        margin: auto;
+    }
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+           <img src="https://thumbs.dreamstime.com/z/color-amenities-concept-vector-icon-isolated-two-sign-symbol-designed-blue-orange-colors-can-be-use-web-mobile-logo-165476771.jpg" alt="no img">
+            <div>By Aniket Raj</div>
+            <!-- left box for logo -->
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <!-- mid box for navbar -->
+
+        </div>
+        <div class="right">
+            <button class="btn">Book your slot now</button>
+            <button class="btn">Email us</button>
+            <button class="btn">Search</button>
+            <!-- right box for tools -->
+
+        </div>
+        <div class="container">
+            <h1>HURRY! Join now </h1>
+            <form action="noaction.php">
+                <div class="formgroup">
+                    <input type="text" name="" placeholder="Enter your Name">
+                    <input type="text" name="" placeholder="Enter your Age">
+                    <input type="text" name="" placeholder="Enter your Sex">
+                    <input type="text" name="" placeholder="Enter your Weight">
+                    <input type="text" name="" placeholder="Enter your Height">
+                    <button class="btn">Submit Now</button>
+                </div>
+            </form>
+        </div>
+    </header>
+    
+</body>
+</html>
